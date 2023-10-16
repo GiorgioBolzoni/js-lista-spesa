@@ -14,4 +14,11 @@ let lista = [];
     
     console.log(lista)
     
-    
+    const listaEl = document.getElementById('list');
+    for (let i = 0; i < lista.length; i++) {
+        const element = lista[i];    
+        const listaRichiestaEl = document.createElement('li');
+        listaRichiestaEl.innerHTML = lista[i]
+        listaEl.appendChild(listaRichiestaEl);
+        
+    }
