@@ -21,4 +21,4 @@ let lista = [];
         listaRichiestaEl.innerHTML = lista[i]
         listaEl.appendChild(listaRichiestaEl);
         
-    }
+    };
